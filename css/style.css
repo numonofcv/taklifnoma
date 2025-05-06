@@ -60,9 +60,9 @@ p span{
     display: flex;
     align-items: center;
     margin: 0% auto;
-    background:rgb(0, 0, 0, 0.2);
-    /* box-shadow: 2px 4px 20px rgba(0.25, 0.25, 0.25, 0.25); */
-    /* backdrop-filter: blur(2px); */
+    background:rgb(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 20px rgba(0.25, 0.25, 0.25, 0.25);
+    backdrop-filter: blur(2px);
     border-radius: 25px;
 }
 
@@ -72,7 +72,7 @@ p span{
     font-weight: 300;
     text-align: center;
     border: 1px solid inherit;
-    padding: 20px;
+    padding: 10px 20px;
     margin: 0 12px;
 }
 
@@ -117,10 +117,17 @@ p span{
     p{
         font-size: 20px;
         text-align: center;
-        margin: 0;
-        padding: 0;
+      
         line-height: 35px;
     }
+    
+.promotion__timer .timer {
+    background:rgb(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 20px rgba(0.25, 0.25, 0.25, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 25px;
+}
+
     .promotion__timer .timer__block span {
       font-size: 44px;
     }
@@ -137,8 +144,11 @@ p span{
         padding: 0;
         line-height: 32px;
     }
-    .promotion__timer .title {
-      font-size: 32px;
+    .promotion__timer .timer {
+        background:rgb(0, 0, 0, 0.1);
+        box-shadow: 2px 4px 20px rgba(0.25, 0.25, 0.25, 0.25);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
     }
   
     .promotion__timer .timer__block span {
@@ -170,34 +180,30 @@ p span{
       background-position: 100% 100%;
     }
     p {
-        font-size: 20px !important;
-        line-height: 29px !important;
+        font-size: 20px;
+        line-height: 29px ;
     }
     .promotion__timer {
         width: 100%;
-        padding: 20px;
-            }
        .promotion__timer .timer {
         width: 80%;
     }
+    .promotion__timer .timer {
+        background:rgb(0, 0, 0, 0.1);
+        box-shadow: 2px 4px 20px rgba(0.25, 0.25, 0.25, 0.25);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+    }
+  
   
     .promotion__timer .timer__block {
       margin: 10px;
-      padding: 16px;
     }
   
     .promotion__timer .timer__block span {
       font-size: 36px;
     }
   
-    .promotion__timer .title {
-      font-size: 28px;
-    }
-  
-    p {
-      font-size: 18px;
-      line-height: 22px;
-    }
   }
   
   @media (max-width: 576px) {
@@ -207,16 +213,19 @@ p span{
         padding: 90px 50px !important;
         }
         
+    .promotion__timer .timer {
+        background:rgb(0, 0, 0, 0.2);
+        box-shadow: 2px 4px 20px rgba(0.25, 0.25, 0.25, 0.25);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+    }
     .promotion__timer .timer__block span {
       font-size: 30px;
     }
   
-    .promotion__timer .title {
-      font-size: 24px;
-    }
-  
     .promotion__timer .timer__block {
-      padding: 12px;
+        padding: 0 !important;
+
     }
   
     p {
@@ -231,19 +240,20 @@ p span{
         height: 230px;
         padding: 130px 35px !important;
         }
-    .promotion__timer .timer {
-      /* flex-wrap: wrap; */
-      justify-content: center;
-    }
+        .promotion__timer .timer {
+            background:rgb(0, 0, 0, 0.2);
+            box-shadow: 2px 4px 20px rgba(0.25, 0.25, 0.25, 0.25);
+            backdrop-filter: blur(5px);
+            border-radius: 10px;
+        }
   
     .promotion__timer .timer__block {
       margin: 8px;
-      padding: 10px;
-      width: 45%;
+      padding: 0 !important;
     }
   
     .promotion__timer .timer__block span {
-      font-size: 26px;
+      font-size: 20px;
     }
   
     .promotion__timer .title {
